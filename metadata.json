@@ -1,0 +1,6 @@
+{
+  "name": "PWA Habit Tracker",
+  "description": "A progressive web app for tracking daily habits, visualizing trends, and exploring insights across multiple views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
