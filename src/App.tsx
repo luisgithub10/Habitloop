@@ -738,7 +738,7 @@ export default function App() {
             <img 
               src="./icon.png" 
               alt="HabitLoop Logo" 
-              className="w-9 h-9 rounded-xl shadow-xs object-contain"
+              className="w-9 h-9 rounded-xl shadow-xs object-cover shrink-0"
               referrerPolicy="no-referrer"
             />
             <div>
@@ -892,7 +892,7 @@ export default function App() {
                 <img 
                   src="./icon.png?v=3" 
                   alt="HabitLoop Logo" 
-                  className="w-16 h-16 rounded-2xl shadow-md border border-neutral-100 object-contain relative z-10"
+                  className="w-16 h-16 rounded-2xl shadow-md border border-neutral-100 object-cover shrink-0 relative z-10"
                   referrerPolicy="no-referrer"
                 />
               </div>
