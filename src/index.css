@@ -13,9 +13,17 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100%;
-  scrollbar-width: none !important; /* Firefox */
-  -ms-overflow-style: none !important; /* IE and Edge */
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; /* Smooth elastic iOS scrolling */
 }
 
 /* Completely hide scrollbars on all browsers and devices */
@@ -28,7 +36,6 @@ html, body {
 html, body, #root, * {
   scrollbar-width: none !important; /* Firefox */
   -ms-overflow-style: none !important; /* IE and Edge */
-  -webkit-overflow-scrolling: touch; /* Smooth elastic iOS scrolling */
 }
 
 /* Robust utility class */
