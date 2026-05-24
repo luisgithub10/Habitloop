@@ -4,8 +4,8 @@ const CACHE_NAME = 'habitloop-v2';
 const PRE_CACHE_ASSETS = [
   '/',
   '/index.html',
-  '/src/main.tsx',
-  '/src/index.css'
+  '/icon.png',
+  '/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
